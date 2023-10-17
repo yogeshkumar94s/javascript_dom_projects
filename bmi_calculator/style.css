@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif Arial, Helvetica;
+  background-color: #413b3b;
+  color: #fff;
+}
+
+.container {
+  width: 60%;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin: 150px auto;
+  padding: 50px 40px;
+  background-color: #5b4d4d;
+}
+
+.title {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+  background-color: #726565;
+  border: 1px solid white;
+  margin: 50px auto;
+}
+
+form input {
+  padding: 2.5px;
+}
+
+label[for="age"] {
+  margin-left: 15px;
+}
+
+input[name="age"] {
+  margin-left: 5px;
+}
+
+button {
+  background-color: #7273b2;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 5px;
+  color: #fff;
+  margin: 5px 10px;
+}
+
+.result {
+  margin-left: 20px;
+  font-size: medium;
+  margin: 25px auto;
+  padding: 15px;
+}
+
+.result p {
+  margin: 15px auto;
+}
