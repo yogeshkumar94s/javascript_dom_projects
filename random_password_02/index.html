@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <div class="options">
+            <label for="length">Password Length: <span id="lengthValue">12</span></label>
+            <input type="range" id="length" min="6" max="30" value="12">
+            
+            <label for="includeNumbers">Include Numbers:</label>
+            <input type="checkbox" id="includeNumbers">
+            
+            <label for="includeSpecialChars">Include Special Characters:</label>
+            <input type="checkbox" id="includeSpecialChars">
+            
+            <button id="generate">Generate Password</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="password">
+            <input type="text" id="password" readonly>
+            <button id="copy">Copy to Clipboard</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
